@@ -20,7 +20,7 @@
 		<!--src="mobile_optimised/resources/sap-ui-core.js"-->
 		<!--src="resources/sap-ui-core-lean.js"-->
 		<!--src="resources/sap-ui-core-all.js"-->
-
+		<!--src="resources/sap-ui-core.js"-->
 		<script id="sap-ui-bootstrap"
 				src="resources/sap-ui-core.js"
 				data-sap-ui-theme="sap_bluecrystal"
@@ -32,6 +32,12 @@
 		</script>
 	</head>
 	<body class="sapUiBody" role="application" id="content">
+
+		<!--
+		We try to display a spinner here but it doesn't show. The UI5 Component
+		immediately takes over drawing the page.
+		-->
+
 		<p id="temp">This is some plain html while we wait for UI5 to load...</p>
 		<div id="center"></div>
 
